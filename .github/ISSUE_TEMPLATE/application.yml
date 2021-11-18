@@ -9,7 +9,7 @@ body:
     label: Вы капитан команды?
     description: Подать заявку может только капитан команды. Капитан принимает все решения в команде, добавляет и исключает участников, представляет проект
     options:
-    - label: Да, я капитан команды
+    - label: Yes, I am the leader of my team
       required: true
 - type: checkboxes
   id: offline
@@ -17,7 +17,7 @@ body:
     label: Вы готовы приехать на Хакатон в Москву?
     description: Все участники должны присутствовать в месте проведения 3-5 декабря
     options:
-    - label: Да, команда будет на месте
+    - label: Yes, my team will attend
       required: true
 - type: textarea
   id: idea
