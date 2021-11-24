@@ -50,7 +50,7 @@ st-flash reset
 
 Запуск:
 ```
-~/screech
+cd ~/screech
 ./run.sh
 ```
 
